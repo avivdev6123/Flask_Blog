@@ -25,3 +25,33 @@ h1 {
 .post p {
     margin: 10px 0;
 }
+
+.add-link {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 16px;
+  background-color: #2c7be5;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.add-link:hover {
+  background-color: #1a5fd0;
+}
+
+.previous-page {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 16px;
+  background-color: #2c7be5;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.previous-page:hover {
+  background-color: #1a5fd0;
+}

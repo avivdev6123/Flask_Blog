@@ -1,4 +1,32 @@
 [
-  {"id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."},
-  {"id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}
+  {
+    "id": 4,
+    "author": "Aviv Avidan",
+    "title": "Admin message AAA",
+    "content": "test test"
+  },
+  {
+    "id": 5,
+    "author": "Aviv",
+    "title": "Admin message",
+    "content": "test 2"
+  },
+  {
+    "id": 6,
+    "author": "Cloey",
+    "title": "my first day ",
+    "content": "hey guys, this is my first time on this amazing blog"
+  },
+  {
+    "id": 7,
+    "author": "Admin 2 ",
+    "title": "what's up?",
+    "content": "Hey Im just checking in..."
+  },
+  {
+    "id": 8,
+    "author": "aaa",
+    "title": "aaa",
+    "content": "ajsdiaspfhpsdf"
+  }
 ]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>Add New Post</title>
+</head>
+<body>
+
+  <h1>Add a New Blog Post</h1>
+  <a href="{{ request.referrer or url_for('index') }}" class="previous-page">← Back</a>
+  <form method="POST" action="/add">
+    
+    <label for="author">Author (full name)</label><br>
+    <input type="text" id="author" name="author" required><br><br>
+
+    <label for="title">Post Title</label><br>
+    <input type="text" id="title" name="title" required><br><br>
+
+    <label for="content">Post Content</label><br>
+    <textarea id="content" name="content" rows="6" cols="50" required></textarea><br><br>
+
+    <button type="submit">Add Post</button>
+
+  </form>
+
+</body>
+</html>
